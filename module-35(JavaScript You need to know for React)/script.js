@@ -65,3 +65,14 @@
 //   (product) => product.brand !== "Xaomi"
 // );
 // console.log(filteredProducts);
+
+// const value = null;
+// if (value) {
+//   console.log("Truthy");
+// } else {
+//   console.log("Falsy");
+// }
+
+const num = 20;
+const result = num > 10 && num < 30 ? "Truthy" : "Falsy";
+console.log(result);
